@@ -89,6 +89,7 @@ def calculate_bmi(request):
     return render(request, "bmiapp/template.html", {"BMI": bmi})
 
     urls.py :
+    
     from django.contrib import admin
 from django.urls import path
 from bmiapp import views
